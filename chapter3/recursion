@@ -1,0 +1,18 @@
+function isEven(positiveNumber){
+    if (positiveNumber < 0){
+       return "Invalid Input";
+    }
+    else if (positiveNumber == 0){
+        return true;
+    }
+    else if (positiveNumber == 1){
+        return false;
+    }
+    else if ((positiveNumber - 2) % 2 == 0 ){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(isEven(3));

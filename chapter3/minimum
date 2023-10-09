@@ -1,0 +1,12 @@
+function determineMinimum(firstNumber, secondNumber){
+    let minimumNumber = 0;
+    if (firstNumber > secondNumber){
+        minimumNumber = secondNumber;
+        return minimumNumber + " is the lowest number";
+    }
+    else{
+        minimumNumber = firstNumber;
+        return minimumNumber + " is the lowest number";
+    }
+}
+console.log(determineMinimum(4, 6));
